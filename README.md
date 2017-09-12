@@ -55,7 +55,7 @@ provided in the CONFIGURATION section very carefully.
 
 
 
-    CONFIGURATION
+CONFIGURATION
 ---------------------
 This section of the ReadMe is a detailed description of how this 
 program functions. It explains how to give the program an input 
