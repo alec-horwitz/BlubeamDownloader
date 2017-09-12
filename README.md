@@ -2,9 +2,13 @@
 CONTENTS OF THIS FILE
 ---------------------
 -BluebeamDownloader.exe
+
 -BluebeamDownloader.py
+
 -Data/BluebeamDownloaderSettings.txt
+
 -Data/BluebeamDownloaderReadMe.txt
+
 -Downloads/Archive/
 
 
@@ -13,7 +17,9 @@ CONTENTS OF THIS FILE
 TABLE OF CONTENTS
 ---------------------
 -Introduction
+
 -Configuration
+
 -Support
 
 
