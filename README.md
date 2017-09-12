@@ -1,20 +1,20 @@
 # BlubeamDownloader
 CONTENTS OF THIS FILE
 ---------------------
-*BluebeamDownloader.exe
-*BluebeamDownloader.py
-*Data/BluebeamDownloaderSettings.txt
-*Data/BluebeamDownloaderReadMe.txt
-*Downloads/Archive/
+-BluebeamDownloader.exe
+-BluebeamDownloader.py
+-Data/BluebeamDownloaderSettings.txt
+-Data/BluebeamDownloaderReadMe.txt
+-Downloads/Archive/
 
 
 
 
  TABLE OF CONTENTS
 ---------------------
-*Introduction
-*Configuration
-*Support
+-Introduction
+-Configuration
+-Support
 
 
 
@@ -58,7 +58,7 @@ problems you might run into. Since the only input this program needs
 is the BluebeamDownloaderSettings.txt that is what will be covered here.
 
 
-############# About the settings.txt #############
+##### About the settings.txt
 The settings.txt file must be in the same directory as this program. 
 This program is very particular about how this file is set up. Do not
 change the name of this file and do not add lines that aren't required. 
@@ -66,31 +66,31 @@ If you do, it might give you an error message (or worse, crash without
 any error message). It must have 27 lines (including the 6 blank lines) 
 in the given order that read as follows:
 
-[Login Information]
-USERNAME: email@website.com
-PASSWORD: password
+    [Login Information]
+    USERNAME: email@website.com
+    PASSWORD: password
 
-[URLs]
-LOGIN_URL: https://studio.bluebeam.com/
-PROJECTS_URL: https://prime.bluebeam.com/primeportal/insight?tab=projectsFilter
-SESSIONS_URL: https://prime.bluebeam.com/primeportal/insight?tab=sessionsFilter
-USERS_URL: https://prime.bluebeam.com/primeportal/insight?tab=usersFilter
+    [URLs]
+    LOGIN_URL: https://studio.bluebeam.com/
+    PROJECTS_URL: https://prime.bluebeam.com/primeportal/insight?tab=projectsFilter
+    SESSIONS_URL: https://prime.bluebeam.com/primeportal/insight?tab=sessionsFilter
+    USERS_URL: https://prime.bluebeam.com/primeportal/insight?tab=usersFilter
 
-[Filenames]
-PROJECT_FILE_NAME: ProjectActivity.csv
-SESSION_FILE_NAME: SessionActivity.csv
-USER_FILE_NAME: User Activity Report.csv
+    [Filenames]
+    PROJECT_FILE_NAME: ProjectActivity.csv
+    SESSION_FILE_NAME: SessionActivity.csv
+    USER_FILE_NAME: User Activity Report.csv
 
-[File System Input/Output]
-DRIVER_PATH: data/aDriver.exe
-DESTINATION_FOLDER: Downloads/
-ARCHIVE_FOLDER: Downloads/Archive/
+    [File System Input/Output]
+    DRIVER_PATH: data/aDriver.exe
+    DESTINATION_FOLDER: Downloads/
+    ARCHIVE_FOLDER: Downloads/Archive/
 
-[Wait Time for Each File]
-SLEEPTIME: 10
+    [Wait Time for Each File]
+    SLEEPTIME: 10
 
-[Number of days or How far back or date range]
-DAYS: 30
+    [Number of days or How far back or date range]
+    DAYS: 30
 
 For each line with a ":" in it anything after the ":" can be altered to your 
 liking so long as you edit it correctly. NEVER CHANGE WHAT IS BEFORE THE ":",
