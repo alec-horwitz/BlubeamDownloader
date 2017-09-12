@@ -105,8 +105,7 @@ are there as examples of the correct types of inputs to use for those lines.
 There are several different sets of rules you must follow to edit these lines 
 correctly depending on what is just before the ":". These rules are as follows:
 
-
-**************** [Login Information] *****************
+##### [Login Information]
 
  -If the line has "USERNAME:" then you must give it a user name to log in to the
   Bluebeam website with that corresponds with the password provided in the 
@@ -117,7 +116,7 @@ correctly depending on what is just before the ":". These rules are as follows:
   "USERNAME:" line.
 
 
-*********************** [URLs] ***********************
+##### [URLs] 
 
  -If the line has "LOGIN_URL:" then you must give it a URL to the log in page
   of the Bluebeam studio website.
@@ -132,7 +131,7 @@ correctly depending on what is just before the ":". These rules are as follows:
   on the insights page of the Bluebeam studio website.
 
 
-******************** [Filenames] *********************
+##### [Filenames] 
 
  -If you leave the space after any line that ends with "_FILE_NAME:" the program will skip
   trying to download that file.
@@ -153,7 +152,7 @@ correctly depending on what is just before the ":". These rules are as follows:
   as part of the filename you enter.
 
 
-************* [File System Input/Output] *************
+##### [File System Input/Output] 
 
  -First it is essential that you understand how to enter a file path. There are two
   kinds of file paths this program understands are relative and absolute. If you are 
@@ -201,13 +200,13 @@ correctly depending on what is just before the ":". These rules are as follows:
   "NameOfActivityReport-YearMonthDay-HourMinuteSecound".
 
 
-************* [Wait Time for Each File] **************
+##### [Wait Time for Each File] 
  -If the line has "SLEEPTIME:" then you must enter a number to indicate how many seconds
   the program should wait for each file to download from the Bluebeam website. 5 to 30
   seconds are recommended.
 
 
-*** [Number of days or How far back or date range] ***
+##### [Number of days or How far back or date range] 
  -If the line has "DAYS:" then you have 3 options:
 
    >You can enter a number representing how many days back the activity reports
@@ -224,7 +223,7 @@ correctly depending on what is just before the ":". These rules are as follows:
 
 
 
-      SUPPORT
+SUPPORT
 ---------------------
 If you are having issues and this document has not helped, you may contact the creator 
 of this program at horwitz_alec@wheatoncollege.edu.
