@@ -1,0 +1,25 @@
+[Login Information]
+USERNAME: email@website.com
+PASSWORD: password
+
+[URLs]
+LOGIN_URL: https://studio.bluebeam.com/
+PROJECTS_URL: https://prime.bluebeam.com/primeportal/insight?tab=projectsFilter
+SESSIONS_URL: https://prime.bluebeam.com/primeportal/insight?tab=sessionsFilter
+USERS_URL: https://prime.bluebeam.com/primeportal/insight?tab=usersFilter
+
+[Filenames]
+PROJECT_FILE_NAME: ProjectActivity.csv
+SESSION_FILE_NAME: SessionActivity.csv
+USER_FILE_NAME: User Activity Report.csv
+
+[File System Input/Output]
+DRIVER_PATH: data/chromedriver
+DESTINATION_FOLDER: downloads
+ARCHIVE_FOLDER: downloads/archive
+
+[Wait Time For Each File]
+SLEEPTIME: 5
+
+[Number of days or How far back or date range]
+DAYS: 30
