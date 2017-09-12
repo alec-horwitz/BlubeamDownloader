@@ -10,7 +10,7 @@ CONTENTS OF THIS FILE
 
 
 
- TABLE OF CONTENTS
+TABLE OF CONTENTS
 ---------------------
 -Introduction
 -Configuration
@@ -19,7 +19,7 @@ CONTENTS OF THIS FILE
 
 
 
-    INTRODUCTION
+INTRODUCTION
 ---------------------
 This program is made to download Activity reports off the Bluebeam 
 Studio website. There are three different report files that can be
