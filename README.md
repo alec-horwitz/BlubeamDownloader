@@ -154,27 +154,22 @@ correctly depending on what is just before the ":". These rules are as follows:
 
 ##### [File System Input/Output] 
 
- -First it is essential that you understand how to enter a file path. There are two
-  kinds of file paths this program understands are relative and absolute. If you are 
-  confident that understand how different kinds of file paths (relative and absolute) 
-  work you may skip to the next "-" bullet. These two way of entering a file path
-  are as follows:
+* First it is essential that you understand how to enter a file path. There are two kinds of file paths this program understands are relative and absolute. If you are confident that understand how different kinds of file paths (relative and absolute) work you may skip to the next "-" bullet. These two way of entering a file path are as follows:
 
-   >You can enter a relative (to the directory the program is in) file path 
-    such as "relative/file/path/". This tells the program to look for a file
+  * You can enter a relative (to the directory the program is in) file path such as "relative/file/path/". This tells the program to look for a file
     or folder with in a sub directory of the folder that the program lives in. 
     If you give it no path after "_FOLDER:" the program will use the exact same 
     directory as where the program lives. For example:
 
-    *If you were to type "Downloads/" after the line "DESTINATION_FOLDER:" in 
+      * If you were to type "Downloads/" after the line "DESTINATION_FOLDER:" in 
      the form "DESTINATION_FOLDER: Downloads/" the program will look for a folder 
      called "Downloads" in the same directory that the program is stored in and 
      store the .csv files that the program downloads from Bluebeam in that folder. 
 
-    *If you were to type nothing after the line "DESTINATION_FOLDER:" the program 
+      * If you were to type nothing after the line "DESTINATION_FOLDER:" the program 
      will use the same folder that the program is stored in for that parameter.
 
-   >You can enter an absolute file path such as "N:/whatever/path/you/want/".
+  * You can enter an absolute file path such as "N:/whatever/path/you/want/".
     If you are an experienced Windows or Linux user, this should be the
     type of directory scheme you are used to seeing (In Windows they use 
     '\' instead of '/' but this program doesn't care which you use). For example
@@ -182,18 +177,18 @@ correctly depending on what is just before the ":". These rules are as follows:
     "DESTINATION_FOLDER: C:/Desktop/" the program will use the Desktop folder on 
     the C drive for that parameter.
 
- -If the line has "DRIVER_PATH:" then you must give it a path to a file. 
+* If the line has "DRIVER_PATH:" then you must give it a path to a file. 
   Specifically, this file must be the chrome drive needed to lunch chrome. In the
   example of the settings file format above the name of this file is 
   "aDriver.exe". If you leave out the name of the driver it will assume
   that the name of the file is "chromedriver.exe".
 
- -If the line has "DESTINATION_FOLDER:" then you must enter a path to a folder for 
+* If the line has "DESTINATION_FOLDER:" then you must enter a path to a folder for 
   the program to send the .csv files after they are downloaded from the Bluebeam site. 
   If there are old copies of these .csv files they will be moved to the Archive folder 
   which is specified by the line that starts with "ARCHIVE_FOLDER:".
 
- -If the line has "ARCHIVE_FOLDER:" then you must enter a path to a folder for the 
+* If the line has "ARCHIVE_FOLDER:" then you must enter a path to a folder for the 
   program to send any old copies of the .csv files from an older run of this program. 
   When these files are moved, a time stamp is appended to the names of these files. 
   The time stamp appended is the date and military time in the format 
@@ -201,22 +196,22 @@ correctly depending on what is just before the ":". These rules are as follows:
 
 
 ##### [Wait Time for Each File] 
- -If the line has "SLEEPTIME:" then you must enter a number to indicate how many seconds
+* If the line has "SLEEPTIME:" then you must enter a number to indicate how many seconds
   the program should wait for each file to download from the Bluebeam website. 5 to 30
   seconds are recommended.
 
 
 ##### [Number of days or How far back or date range] 
- -If the line has "DAYS:" then you have 3 options:
+* If the line has "DAYS:" then you have 3 options:
 
-   >You can enter a number representing how many days back the activity reports
+  * You can enter a number representing how many days back the activity reports
     should go. In other words, from today how many days should the data include.
 
-   >You can enter a date representing how far back the activity reports should go. 
+  * You can enter a date representing how far back the activity reports should go. 
     In other words, from what date forward should the data include. The date should
     be in the format mm/dd/yyyy.
 
-   >You can enter a date range representing from when to when reports should include 
+  * You can enter a date range representing from when to when reports should include 
     data for. The date range must be in the format mm/dd/yyyy-mm/dd/yyyy. The program
     will try to get the data from the first date to the date at the end.
     
